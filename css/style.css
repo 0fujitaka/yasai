@@ -121,7 +121,20 @@ background-image: url("../images/3tumein.jpeg");
 	line-height: 2em;
 	text-align: center;
 	padding-top: 10%;
-	
+	list-style-type: none;
+	counter-reset: item;
+}
+
+.three_0 li:before {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	margin: auto;
+	padding: 20px;
+	border-radius: 50%;
+	background: #f00;
+  counter-increment: item;
+  content: counter(item);
 }
 
 .three_333{

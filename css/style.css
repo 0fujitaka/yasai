@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header_image {
+background-image: url("../images/mein.jpeg");/* メイン画像 */
+    width: 100%;/* メイン画像１００％ */
+    height: 700px; 
+	max-width: 100%;
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-size: cover; /* 画像おおう */
+}
+.header{
+	background-color: rgba(255,255,255,0.5);
+	display: flex;
+	
+}
+.header_h1_nav{
+	min-width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	display: flex; 
+}
+
+
+.li_text {
+	display: inline-block;
+	text-align: center;
+    margin: 0 20px; 
+}
+
+.li_text a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #474747;
+}
+
+.li_text span{
+	color: #a5a5a5;font-size: 18px;
+}
+
+.header_rogo{
+	text-align:center;
+	height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_lead{
+	text-align:center;
+    
+}
+
+.header_nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 100px;
+    }
+
+.setumei {
+	background: #fff8ed;
+	width: 100%;/* 横 */
+    height: 500px;/* 高さ */
+	max-width: 100%;/* 最大 */
+	background-position: center; /* 中央揃え */
+	background-repeat:no-repeat;/* 背景画像を一回だけ表示して繰り返しません。*/
+	background-size: 100%; /* 背景100％ */
+}
+
+/* 説明ページ */
+.setumei {
+	text-align: center;
+}
+
+.setumei_text {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 2%;
+	line-height: 180%;
+}
+.setumei_images {
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+
+.setumei_botann img {
+
+
+}
+
+.setumei_yasai_1 img{
+
+
+}
+
+.setumei_yasai_2 img{
+
+
+}
+/* <!--3つの理由--> */
+.three {
+background-image: url("../images/3tumein.jpeg");
+	width: 100%;/* メイン画像１００％ */
+    height: 1000px; 
+	max-width: 100%;
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-size: cover; /* 画像おおう */
+}
+
+.three_0{
+	font-size: 24px;
+	line-height: 2em;
+	text-align: center;
+	padding-top: 10%;
+	
+}
+
+.three_333{
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	margin: 0 auto;
+	padding-top: 30px;
+	background-color: rgba(255,255,255,0.5);
+	display: flex;
+}
+
+.three_1{
+	
+}
+
+.three_2{
+	
+}
+
+.three_3{
+	
+}
+
+

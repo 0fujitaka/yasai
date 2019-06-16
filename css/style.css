@@ -195,10 +195,31 @@
   font-weight: bolder;
 }
 
+.item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-block {
+  margin: 20px 50px;
+  flex: 1;
+  background-color: #f00;
+  text-align: center;
+}
+
 /* １回限り1.2 */
 .own_h3_1, .own_h3_2 {
   margin: auto;
   text-align: center;
+}
+
+.one-image {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.one-image img {
+  width: 100%;
 }
 
 .own_h3_div_1, .own_h3_div_2 {
@@ -236,15 +257,4 @@
   text-align: center;
   padding-top: 5%;
   line-height: 180%;
-}
-
-.item-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.item-block {
-  margin: 20px 50px;
-  flex: 1;
-  background-color: #f00;
 }

@@ -186,7 +186,7 @@
 .own_h2_div {
   display: flex;
   justify-content: center;
-  align-items: felx-start;
+  align-items: flex-start;
   text-align: center;
   width: 100%;
   font-size: 3em;
@@ -246,11 +246,5 @@
 .item-block {
   margin: 20px 50px;
   flex: 1;
-  background-color: #f00;
-}
-
-.item-block2 {
-  margin: 20px 50px;
-  flex: 2;
   background-color: #f00;
 }

@@ -245,6 +245,12 @@
 
 .item-block {
   margin: 20px 50px;
-  flex-basis: 50%;
+  flex: 1;
+  background-color: #f00;
+}
+
+.item-block2 {
+  margin: 20px 50px;
+  flex: 2;
   background-color: #f00;
 }

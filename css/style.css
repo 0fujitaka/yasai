@@ -184,6 +184,9 @@
 }
 
 .own_h2_div {
+  display: flex;
+  justify-content: center;
+  align-items: felx-start;
   text-align: center;
   width: 100%;
   font-size: 3em;
@@ -233,4 +236,15 @@
   text-align: center;
   padding-top: 5%;
   line-height: 180%;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-block {
+  margin: 20px 50px;
+  flex-basis: 50%;
+  background-color: #f00;
 }

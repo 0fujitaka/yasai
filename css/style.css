@@ -2,92 +2,92 @@
 /* CSS Document */
 
 .header_image {
-	background-image: url("../images/mein.jpeg");	/* メイン画像 */
-	width: 100%;	/* メイン画像１００％ */
-	height: 700px;
-	max-width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;	/* 画像おおう */
+  background-image: url("../images/mein.jpeg");  /* メイン画像 */
+  width: 100%;  /* メイン画像１００％ */
+  height: 700px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* 画像おおう */
 }
 
 .header {
-	background-color: rgba(255,255,255,0.5);
-	display: flex;
+  background-color: rgba(255,255,255,0.5);
+  display: flex;
 }
 
 .header_h1_nav {
-	min-width: 1100px;
-	margin: 0 auto;
-	margin-top: 30px;
-	padding-bottom: 30px;
-	display: flex;
+  min-width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
 }
 
 .li_text {
-	display: inline-block;
-	text-align: center;
-	margin: 0 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
 }
 
 .li_text a {
-	font-size: 20px;
-	text-decoration: none;
-	color: #474747;
+  font-size: 20px;
+  text-decoration: none;
+  color: #474747;
 }
 
 .li_text span {
-	color: #a5a5a5;font-size: 18px;
+  color: #a5a5a5;font-size: 18px;
 }
 
 .header_rogo {
-	text-align: center;
-	height: 350px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  text-align: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header_lead {
-	text-align: center;
+  text-align: center;
 }
 
 .header_nav {
-	display: flex;
-	width: 100%;
-	justify-content: flex-end;
-	align-items: center;
-	padding: 0 100px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 100px;
 }
 
 /* 説明ページ */
 .setumei {
-	background: #fff8ed;
-	width: 100%;	/* 横 */
-	height: 500px;	/* 高さ */
-	max-width: 100%;	/* 最大 */
-	background-position: center; /* 中央揃え */
-	background-repeat: no-repeat;	/* 背景画像を一回だけ表示して繰り返しません。*/
-	background-size: 100%; /* 背景100％ */
+  background: #fff8ed;
+  width: 100%;  /* 横 */
+  height: 500px;  /* 高さ */
+  max-width: 100%;  /* 最大 */
+  background-position: center; /* 中央揃え */
+  background-repeat: no-repeat;  /* 背景画像を一回だけ表示して繰り返しません。*/
+  background-size: 100%; /* 背景100％ */
 }
 
 .setumei {
-	text-align: center;
+  text-align: center;
 }
 
 .setumei_text {
-	width: 100%;
-	font-size: 24px;
-	text-align: center;
-	padding-top: 2%;
-	line-height: 180%;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 2%;
+  line-height: 180%;
 }
 .setumei_images {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 
 
@@ -107,129 +107,129 @@
 }
 /* <!--3つの理由--> */
 .three {
-	background-image: url("../images/3tumein.jpeg");
-	width: 100%;  /* メイン画像１００％ */
-	height: 1000px;
-	max-width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover; /* 画像おおう */
+  background-image: url("../images/3tumein.jpeg");
+  width: 100%;  /* メイン画像１００％ */
+  height: 1000px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* 画像おおう */
 }
 
 .three_0 {
-	font-family: Noto Sans CJK JP;
-	font-size: 16px;
-	line-height: 2em;
-	text-align: center;
-	padding-top: 10%;
-	list-style-type: none;	/* 点消す */
-	counter-reset: item;	/* カウントアップを０にする */
-	background-color: rgba(255,255,255,0.5);
-	justify-content: space-around;
+  font-family: Noto Sans CJK JP;
+  font-size: 16px;
+  line-height: 2em;
+  text-align: center;
+  padding-top: 10%;
+  list-style-type: none;  /* 点消す */
+  counter-reset: item;  /* カウントアップを０にする */
+  background-color: rgba(255,255,255,0.5);
+  justify-content: space-around;
 }
 
 .three_0 li:before {  /* liの中の前の中身の前　つまり数字 */
-	display: inline-block;  /* インラインとブロック　大きさが変わる */
-	font-weight: 700;  /* 太くなる　１２３ */
-	width: 55px;  /* 2eem　フォントサイズの倍 横幅　*/
-	height: 55px;	 /* 2emem　フォントサイズの倍　　高さ　幅 */
-	margin: auto;	 /* 自動的真ん中によせる */
-	border-radius: 50%; 	/* ５０％まんまるになる */
-	background: #f87458;  /* 色 */
-	counter-increment: item;  /* カウンターアップ　＋１＝ｱｲﾃﾑ */
-	content: counter(item); 	/* コンテント内容　カウンター　１表示＝ｱｲﾃﾑ */
+  display: inline-block;  /* インラインとブロック　大きさが変わる */
+  font-weight: 700;  /* 太くなる　１２３ */
+  width: 55px;  /* 2eem　フォントサイズの倍 横幅　*/
+  height: 55px;   /* 2emem　フォントサイズの倍　　高さ　幅 */
+  margin: auto;   /* 自動的真ん中によせる */
+  border-radius: 50%;   /* ５０％まんまるになる */
+  background: #f87458;  /* 色 */
+  counter-increment: item;  /* カウンターアップ　＋１＝ｱｲﾃﾑ */
+  content: counter(item);   /* コンテント内容　カウンター　１表示＝ｱｲﾃﾑ */
 }
 
 .three_0 li {
 }
 
 .three_333 {
-	display: flex;	/* インラインとブロック　大きさが変わる */
-	justify-content: space-around;
-	width: 100%;
-	margin: 0 auto;
-	padding: 30px 0;
-	background-color: rgba(255,255,255,0.5);
+  display: flex;  /* インラインとブロック　大きさが変わる */
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: rgba(255,255,255,0.5);
 }
 
 
 .three_1, .three_2, .three_3 {
-	font-size: 80px;
+  font-size: 80px;
 }
 
 .three_1_text, .three_2_text, .three_3_text {
-	font-size: 16px;
-	line-height: 1.8em;  /*行間*/
-	text-align: left;
+  font-size: 16px;
+  line-height: 1.8em;  /*行間*/
+  text-align: left;
 }
 
 /* １回限り */
 .own {
-	background: #fff8ed;
-	width: 100%;  /* 横 */
-	height: 1200px;	 /* 高さ */
-	max-width: 100%;	/* 最大 */
-	background-position: center;  /* 中央揃え */
-	background-repeat: no-repeat;	 /* 背景画像を一回だけ表示して繰り返しません。*/
-	background-size: 100%;  /* 背景100％ */
+  background: #fff8ed;
+  width: 100%;  /* 横 */
+  height: 1200px;   /* 高さ */
+  max-width: 100%;  /* 最大 */
+  background-position: center;  /* 中央揃え */
+  background-repeat: no-repeat;   /* 背景画像を一回だけ表示して繰り返しません。*/
+  background-size: 100%;  /* 背景100％ */
 }
 
 .own_h2 {
-	text-align: center;
-	width: 100%;
-	font-size: 24px;
-	text-align: center;
-	padding-top: 3.5em;
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 3.5em;
 }
 
 .own_h2_div {
-	text-align: center;
-	width: 100%;
-	font-size: 3em;
-	text-align: center;
-	padding-top: 2%;
-	font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 2%;
+  font-weight: bolder;
 }
 
 /* １回限り1.2 */
 .own_h3_1, .own_h3_2 {
-	margin: auto;
+  margin: auto;
   text-align: center;
 }
 
 .own_h3_div_1, .own_h3_div_2 {
-	display: flex;	/* インラインとブロック　大きさが変わる */
-	justify-content: space-around;
+  display: flex;  /* インラインとブロック　大きさが変わる */
+  justify-content: space-around;
 }
 
 .own_h4_1　.own_h4_2 {
-	font-size: 16px;
-	line-height: 1.8em;	/*行間*/
-	text-align: left;
+  font-size: 16px;
+  line-height: 1.8em;  /*行間*/
+  text-align: left;
 }
 
 /* スグ食べの品質 */
 .quality {
-	background-image: url("../images/manaita.jpg");	 /* メイン画像 */
-	width: 100%;	/* メイン画像１００％ */
-	height: 1000px;
-	max-width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;  /* 画像おおう */
+  background-image: url("../images/manaita.jpg");   /* メイン画像 */
+  width: 100%;  /* メイン画像１００％ */
+  height: 1000px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  /* 画像おおう */
 }
 .quality_h2 {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 12em;
-	zoom: 150%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12em;
+  zoom: 150%;
 }
 
 .quality_text {
-	text-align: center;
-	font-size: 18px;
-	color: #FEFEFE;
-	text-align: center;
-	padding-top: 5%;
-	line-height: 180%;
+  text-align: center;
+  font-size: 18px;
+  color: #FEFEFE;
+  text-align: center;
+  padding-top: 5%;
+  line-height: 180%;
 }

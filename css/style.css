@@ -36,8 +36,9 @@
   color: #474747;
 }
 
-.li_text span {
-  color: #a5a5a5;font-size: 18px;
+.li_text .menu-item {
+  color: #a5a5a5;
+  font-size: 18px;
 }
 
 .header_rogo {
